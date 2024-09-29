@@ -8,18 +8,18 @@ import javax.persistence.Id;
 public class User {
 
 	@Id
-	@Column
-	public int id;
-	@Column
-	public String name;
-	@Column
-	public String email;
-	@Column
-	public String password;
-	@Column
-	public String gender;
-	@Column
-	public String city;
+	
+	private int id;
+	//@Column
+	private String name;
+	//@Column
+	private String email;
+	//@Column
+	private String password;
+	//@Column
+	private String gender;
+	//@Column
+	private String city;
 
 	public int getId() {
 		return id;
